@@ -1,0 +1,33 @@
+# Core Python environment
+numpy
+scipy
+matplotlib
+pandas
+
+# Signal processing
+mne                  # EEG signal handling
+pyxdf                # For loading XDF EEG files (if used)
+
+# Deep Learning (CNN)
+tensorflow           # or use pytorch
+keras
+
+# Reinforcement Learning
+stable-baselines3
+gymnasium            # newer Gym library
+tensorboard
+
+
+# Robot control simulation (e.g., for 3D trajectory snapshots)
+pybullet
+opencv-python
+pygame
+
+# Visualization
+seaborn
+scikit-learn         # for confusion matrix
+plotly               # for interactive reward/trajectory graphs
+
+# Optional: Personalization & statistical comparison
+statsmodels
+scipy
